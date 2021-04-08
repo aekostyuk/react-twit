@@ -17,6 +17,7 @@ class App extends Component {
 				{ label: "Oh god...", important: false, like: true },
 				{ label: "Oh dog...", important: false, like: false },
 			],
+			term: "",
 		};
 
 		this.deleteItem = this.deleteItem.bind(this);
